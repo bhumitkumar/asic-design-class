@@ -4,7 +4,7 @@ Lab 1: Compiling a C program with gcc compiler, execute it and generate the outp
 
 Write the C code in a file using any text editor and save it as sum1ton.c (source code).
 
-Next, compile the code using gcc compiler, this will generate the executable code.
+Next, compile the source code using gcc compiler, this will generate the executable code.
 
 Now, run the executable code to see the output.
 
