@@ -1,6 +1,6 @@
-<b> ASIC Design Class </b>
+# ASIC Design Class
 
-Lab 1: Compiling a C program with gcc compiler, execute it and generate the output.
+### Lab 1: Compiling a C program with gcc compiler, execute it and generate the output.
 
 Write the C code in a file using any text editor and save it as sum1ton.c (source code).
 
