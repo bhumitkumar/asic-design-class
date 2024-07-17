@@ -19,11 +19,11 @@ The next task is to compile the sum1ton.c using RISCV gcc compiler using the com
 ![1b-obj-dump1](https://github.com/user-attachments/assets/53cb974a-bced-4388-ab5f-b62bd0a68919)
 
 
-Observe that object code dump generates the following, main function is present at location 10184.
+Observe that object code dump generates the following, main function is present at location 10184 and 15 instructions are present in assembly code.
 
 ![1b-obj-dump](https://github.com/user-attachments/assets/1266eeb0-1246-483b-802b-da78ad867e37)
 
-Next, try 0fast of RISCV compiler for same C code and observe the object code dump, now the main function is located at 100b0.
+Next, try 0fast of RISCV compiler for same C code and observe the object code dump, now the main function is located at 100b0 and number of instructions present is 12.
 
 ![1b-obj-dump2-command](https://github.com/user-attachments/assets/6f62164f-66f3-4e5a-8249-0b21a8bd5a2c)
 
