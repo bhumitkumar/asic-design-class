@@ -1,7 +1,7 @@
 # ASIC Design Class
 <details>
   
-<summary>Lab 1: Compiling a C program with gcc compiler and RISCV gcc compiler </summary>
+<summary>Lab 1: Compiling a small C program with gcc compiler and RISCV gcc compiler </summary>
 
 ## Lab 1A: Compiling a C program with gcc compiler, execute it and generate the output.
 
@@ -34,7 +34,13 @@ Next, try 0fast of RISCV compiler for same C code and observe the object code du
 
 </details>
 
+<details> 
+  <summary>Lab 2: Simulating and degbugging c program with Spike RISC-V ISA Simulator </summary>
+</details>
 
-
-
-
+<details>
+  <summary>Lab 3: Write a C program for Gaussian elimination algorithm and run it on gcc and RISCV gcc </summary>
+</details>
+<details>
+  <summary>Lab 4: TL Verilog, Makerchip IDE, Build a 5 stage pipelined RISCV processor </summary>
+</details>
