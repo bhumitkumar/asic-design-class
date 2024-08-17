@@ -1,4 +1,7 @@
 # ASIC Design Class
+<details>
+  
+<summary>Lab 1: Compiling a C program with gcc compiler and RISCV gcc compiler </summary>
 
 ## Lab 1A: Compiling a C program with gcc compiler, execute it and generate the output.
 
@@ -29,7 +32,7 @@ Next, try 0fast of RISCV compiler for same C code and observe the object code du
 
 ![1b-obj-dump2](https://github.com/user-attachments/assets/7c33319c-1092-4b76-924d-84d49bf7e8b3)
 
-
+</details>
 
 
 
