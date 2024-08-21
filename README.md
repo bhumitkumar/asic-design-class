@@ -44,6 +44,11 @@ Next, try 0fast of RISCV compiler for same C code and observe the object code du
   <summary>Lab 3: Write a C program for Gaussian elimination algorithm and run it on gcc and RISCV gcc </summary>
 
   ## Lab 3
+
+  ![gauss](https://github.com/user-attachments/assets/fe01afaf-3f2b-4456-a40d-395f784dec01)
+
+  ![gauss1](https://github.com/user-attachments/assets/d5ecafc7-a5fa-4429-aeff-b8996770a61a)
+
 </details>
 
 <details>
