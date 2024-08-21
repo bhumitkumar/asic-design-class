@@ -37,10 +37,15 @@ Next, try 0fast of RISCV compiler for same C code and observe the object code du
 <details> 
   <summary>Lab 2: Simulating and degbugging c program with Spike RISC-V ISA Simulator </summary>
 </details>
-
+## Lab 2
 <details>
   <summary>Lab 3: Write a C program for Gaussian elimination algorithm and run it on gcc and RISCV gcc </summary>
 </details>
+## Lab 3
 <details>
   <summary>Lab 4: TL Verilog, Makerchip IDE, Build a 5 stage pipelined RISCV processor </summary>
 </details>
+## Lab 4
+Implementing a combinational circuit in TLV : Four function calculator using multiplexer
+
+![Calculator](https://github.com/user-attachments/assets/eb6fe03f-6ede-40d0-8891-e71654a95171)
