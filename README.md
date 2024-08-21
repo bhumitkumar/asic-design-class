@@ -55,6 +55,45 @@ Implementing a combinational circuit in TLV : Four function calculator using mul
 
 ![Calculator](https://github.com/user-attachments/assets/eb6fe03f-6ede-40d0-8891-e71654a95171)
 
+RISCV Block diagram - To be implemented in TLV, blockwise
+
+![riscv-Block_diagram](https://github.com/user-attachments/assets/75ec57fe-8ce8-44a6-9420-d7f8b1a4d36a)
+
+Program Counter
+
+![programcounter](https://github.com/user-attachments/assets/6d40c0d7-7ff1-4188-b3d4-351ad8ad5e39)
+
+Instruction Fetch
+
+![instruction fetch](https://github.com/user-attachments/assets/3b64fcbd-14fe-4529-9671-5f107e60235f)
+
+Instruction Decode
+
+![instruction decode1](https://github.com/user-attachments/assets/c70d0629-28ea-468e-a498-a3183eabe908)
+
+ALU
+
+![alu](https://github.com/user-attachments/assets/c887fa03-efd4-4b3b-a0fb-8199e8871718)
+
+
+
+Register Read
+
+![reg_rd](https://github.com/user-attachments/assets/36c042aa-1a80-4095-92b2-2a25dfa68ee5)
+
+Register Write
+
+![reg_wr](https://github.com/user-attachments/assets/be815086-96ed-4599-81e1-173bb7b51b36)
+
+Branching
+
+![branching](https://github.com/user-attachments/assets/d77ccf7a-192a-4b76-ba59-4891b0931dd6)
+
+
+
+
+
+
 </details>
 
 
