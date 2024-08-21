@@ -81,7 +81,6 @@ ALU
 ![alu](https://github.com/user-attachments/assets/c887fa03-efd4-4b3b-a0fb-8199e8871718)
 
 
-
 Register Read
 
 ![reg_rd](https://github.com/user-attachments/assets/36c042aa-1a80-4095-92b2-2a25dfa68ee5)
@@ -93,6 +92,24 @@ Register Write
 Branching
 
 ![branching](https://github.com/user-attachments/assets/d77ccf7a-192a-4b76-ba59-4891b0931dd6)
+
+RISCV implementation, combined cpu using above blocks.
+
+![Diagram](https://github.com/user-attachments/assets/194d1d52-96ab-4a7f-8bd3-7a158e1406f1)
+
+Following shows the clock and reset signals in waveform.
+
+![clk](https://github.com/user-attachments/assets/cf192530-3d34-401d-b0a8-3cb1ffa9853f)
+
+![reset_signal](https://github.com/user-attachments/assets/c21dba93-e09d-4419-bd75-595a3cc0562e)
+
+The final sum getting accumulated with each cycle can be seen as following.
+
+![final sum accumulation](https://github.com/user-attachments/assets/2d354c34-2718-49ac-a8df-572f430dd3ae)
+
+
+
+
 
 
 
