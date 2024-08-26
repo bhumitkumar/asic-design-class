@@ -107,15 +107,11 @@ The final sum getting accumulated with each cycle can be seen as following.
 
 ![final sum accumulation](https://github.com/user-attachments/assets/2d354c34-2718-49ac-a8df-572f430dd3ae)
 
-
-
-
-
-
-
-
-
-
 </details>
 
+<details> 
+  <summary>Lab 5: TL Verilog to Verilog conversion using Sandpiper and testing the converted Verilog based riscvcore </summary>
+
+  ## Lab 5
+</details>
 
