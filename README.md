@@ -143,7 +143,7 @@ Final sum
 </details>
 
 <details> 
-  <summary>Lab 6: Simulating Riscv-core with PLL and DAC using iverilog, Yosys installation. </summary>
+  <summary>Lab 6: Simulating Riscv-core with PLL and DAC, Yosys installation. </summary>
 
   ## Lab 6
 
