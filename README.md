@@ -150,7 +150,8 @@ Final sum
   In Lab 5, riscv core was compiled in iverilog and program to sum 1 to 9 was shown working with output seen in gtkwave.
   In lab 6, with riscv core, DAC and PLL are added and the output of sum of numbers can be seen with its analog equivalent.
 
-![output](https://github.com/user-attachments/assets/33a470c5-ba1b-48d6-b750-b452584f728d)
+![asic_update](https://github.com/user-attachments/assets/8fdc4563-2ad2-4c29-8ec1-5ad71f925b72)
+
 
 Yosys installation for next lab.
 ![yosys](https://github.com/user-attachments/assets/f2cab8b4-cb77-4668-823a-aac0e0ba37d3)
