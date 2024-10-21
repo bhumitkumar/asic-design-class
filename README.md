@@ -252,10 +252,65 @@ The generated netlist is as follows
 ![image](https://github.com/user-attachments/assets/d6b86354-2694-4d00-9b88-bbe2ed12bfe1)
 
 
-2 - Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
+2 - (a) Timing libs, (b) hierarchical vs flat synthesis and (c) efficient flop coding styles
+
+liberty file contains information about standard cells such as, timing, power, area parameters. Also, multiple forms of same logic cell are available in standard cell library with different characteristics.
+
+Whenever there are multiple modules are present in design, the netlist can be synthesised in either hierarchical form or as flat form.
+
+
 
 3 - Combinational and sequential optmizations
 
+1. 2 input AND gate<br>
+Run the following commands sequentially to generate netlist<br>
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog opt_check2.v<br>
+synth -top opt_check2<br>
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+opt_clean -purge<br>
+show
+![image](https://github.com/user-attachments/assets/23db51d8-ac89-4925-8b71-5a082e05830c)
+
+2. 2 input OR Gate<br>
+Run the following commands sequentially to generate netlist<br>
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog opt_check.v<br>
+synth -top opt_check2<br>
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+opt_clean -purge<br>
+show
+![image](https://github.com/user-attachments/assets/f652c88a-4772-4cd9-95bc-d8efb544dfbe)
+
+3. 3 input AND gate<br>
+Run the command in similar manner as above with opt_check3.v
+![image](https://github.com/user-attachments/assets/28f71953-ce71-4eb3-b0ac-1f141eb5f224)
+
+4. 2 input XNOR
+Run the command in similar manner as above with opt_check4.v
+![image](https://github.com/user-attachments/assets/f91b12e9-e4e8-4033-8449-c8d8b8c1e577)
+
+In case of multiple modules, flatten command needs to be used before generating netlist, otherwise it will show following error.
+
+![Multiple module error Screenshot from 2024-10-21 22-15-42](https://github.com/user-attachments/assets/86d20872-a2e3-4587-ba0d-acdd2840e36b)
+
+
 4 - Gate level synthesis, blocking vs non-blocking statements and Synthesis-Simulation mismatch
 
+Previously, RTL synthesis is carried out where netlist is generated from verilog code, which uses standard cells of pdk.
+Observe that synthesised netlist and RTL verilog code are logically same. This netlist will contain for example and gate with input and output.
+In gate level synthesis, abstract gates in synthesised netlist are replaced with gate level verilog models which can be functional models or timing aware models.
+
+Once netlist generated after gate level synthesis, we need to do functional verification to remove synthesis-simulation mismatch. 
+Some of the reasons for synthesis-simulation mismatch are, missing sensity list, block-non blocking assignments or non standard verilog code.
+
+![image](https://github.com/user-attachments/assets/16d8171f-273f-490c-b92c-bb88783c242b)
+
+
+Synthesis-simulation mismatch example
+1. missing sensitivity list
+2. for blocking and non blocking statements
+   
 </details>
