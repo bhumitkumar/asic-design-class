@@ -382,11 +382,43 @@ Compilation in iverilog<br>
 ![image](https://github.com/user-attachments/assets/380ad93e-06aa-4a67-ba39-c2f8eed39150)
 
 Output of synthesis<br>
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog ternary_operator_mux.v<br>
+synth -top ternary_operator_mux<br>
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+opt_clean -purge<br>
+write_verilog -noattr ternary_operator_mux_net.v<br>
+show<br>
 
 ![image](https://github.com/user-attachments/assets/2bb7cfa8-8720-4695-913d-05d3d7915c23)
 
+2. Bad 2x1 mux
+
+Output of synthesis<br>
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog bad_mux.v<br>
+synth -top bad_mux<br>
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+opt_clean -purge<br>
+write_verilog -noattr bad_mux_net.v<br>
+!gvim bad_mux_net.v<br>
+show<br>
 
 
+![image](https://github.com/user-attachments/assets/69887389-d366-4fa3-aa0b-7ed76212316e)
+
+3. Related to blocking statement
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog blocking_caveat.v<br>
+synth -top blocking_caveat<br>
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+opt_clean -purge<br>
+write_verilog -noattr blocking_caveat_net.v<br>
+show<br>
+![image](https://github.com/user-attachments/assets/57d0657e-6a38-4acf-a458-6712ec1f8deb)
 
 
 Synthesis-simulation mismatch example
