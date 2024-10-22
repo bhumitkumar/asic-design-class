@@ -334,6 +334,34 @@ dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
 show<br>
 ![image](https://github.com/user-attachments/assets/dab1c857-bf01-458f-a603-677c68679d79)
 
+9. D Flipflop<br>
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog dff_const5.v<br>
+synth -top dff_const5<br>
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+show<br>
+![image](https://github.com/user-attachments/assets/be1cdd24-f731-4c3f-adf0-15ea3d5896d6)
+
+10. Counter optimisation
+
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog counter_opt.v<br>
+synth -top counter_opt<br>
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+show<br>
+![image](https://github.com/user-attachments/assets/72a7e3aa-4f1d-48d4-a7ed-b548f254bafb)
+
+11. Counter optimisation 2
+
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog counter_opt2.v<br>
+synth -top counter_opt2<br>
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+show<br>
+![image](https://github.com/user-attachments/assets/b4808391-5a6d-4634-8ed1-9bdf9100d3bf)
 
 
 
