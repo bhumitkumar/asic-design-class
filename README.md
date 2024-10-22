@@ -377,6 +377,17 @@ Some of the reasons for synthesis-simulation mismatch are, missing sensity list,
 
 ![image](https://github.com/user-attachments/assets/16d8171f-273f-490c-b92c-bb88783c242b)
 
+1. 2x1 mux using ternary operator<br>
+Compilation in iverilog<br>
+![image](https://github.com/user-attachments/assets/380ad93e-06aa-4a67-ba39-c2f8eed39150)
+
+Output of synthesis<br>
+
+![image](https://github.com/user-attachments/assets/2bb7cfa8-8720-4695-913d-05d3d7915c23)
+
+
+
+
 
 Synthesis-simulation mismatch example
 1. missing sensitivity list
