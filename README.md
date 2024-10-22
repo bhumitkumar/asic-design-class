@@ -296,6 +296,47 @@ In case of multiple modules, flatten command needs to be used before generating 
 
 ![Multiple module error Screenshot from 2024-10-21 22-15-42](https://github.com/user-attachments/assets/86d20872-a2e3-4587-ba0d-acdd2840e36b)
 
+5. D Flipflop with asynchronour reset - active low
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog dff_const1.v
+synth -top dff_const1
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+![image](https://github.com/user-attachments/assets/94981cc0-46af-4e19-bec9-81d3a1b9af4a)
+
+6. D Flipflop with asynchronour reset - active high<br>
+
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog dff_const2.v<br>
+synth -top dff_const2<br>
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+show<br>
+![image](https://github.com/user-attachments/assets/0c874f0b-1ca6-449c-8bc4-a2f99936a802)
+
+7. D Flipflop with asynchronour reset Design 3<br>
+
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog dff_const3.v<br>
+synth -top dff_const3<br>
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+show<br>
+![image](https://github.com/user-attachments/assets/cb08e78d-b451-4f44-9cdb-0999691b03d4)
+
+8. D Flipflop<br>
+yosys<br>
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+read_verilog dff_const4.v<br>
+synth -top dff_const4<br>
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib<br>
+show<br>
+![image](https://github.com/user-attachments/assets/dab1c857-bf01-458f-a603-677c68679d79)
+
+
+
+
 
 4 - Gate level synthesis, blocking vs non-blocking statements and Synthesis-Simulation mismatch
 
