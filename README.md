@@ -426,3 +426,33 @@ Synthesis-simulation mismatch example
 2. for blocking and non blocking statements
    
 </details>
+
+<details>
+  
+<summary>Lab 8: Synthesis of riscv core, pll and dac using SKY130 pdk </summary>
+
+## Comparision of Functional simulation output and Synthesised output.
+
+### Output waveforms of functional simulation
+![Screenshot from 2024-10-23 20-31-0935](https://github.com/user-attachments/assets/1f40ad8d-6bf3-41e8-8c12-dbac400ea077)
+
+### Output waveforms of Synthesised verilog file
+
+![Screenshot from 2024-10-23 20-37-574](https://github.com/user-attachments/assets/5c811dda-a056-43e5-829f-1df6e26a7566)
+
+
+## Yosys stats related to synthesis
+
+![image](https://github.com/user-attachments/assets/b5cfe879-f47d-4e91-81c7-ba5e02c4196f)
+![image](https://github.com/user-attachments/assets/74656874-f86f-43b7-bdfc-e39d30bf060f)
+![image](https://github.com/user-attachments/assets/ec9c3bfd-e393-4672-b6eb-1617978a21cd)
+
+## Standard cells usage
+
+![image](https://github.com/user-attachments/assets/227196f6-8acf-4f77-a933-7df7027d4453)
+![image](https://github.com/user-attachments/assets/d8b5f250-7491-4920-a2e9-bb479eb65144)
+
+</details>
+
+
+
