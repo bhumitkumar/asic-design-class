@@ -499,6 +499,10 @@ For min delay in path
 Below is the snapshot of SDC
 ![image](https://github.com/user-attachments/assets/6509cba4-f24a-4a70-b65e-924e897efd52)
 
+Table of various slack report
+
+![image](https://github.com/user-attachments/assets/78d08671-c7b0-44b3-8b1a-fab8231eea71)
+
 
 <img width="713" alt="wns" src="https://github.com/user-attachments/assets/74f8f222-58ea-4b27-bf25-b448f9cce736">
 
