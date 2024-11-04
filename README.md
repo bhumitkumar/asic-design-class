@@ -496,7 +496,12 @@ For min delay in path
   
 <summary>Lab 10: Static Timing Analysis of design using OpenSTA for process corners</summary>
 
+Below is the snapshot of SDC
+![image](https://github.com/user-attachments/assets/6509cba4-f24a-4a70-b65e-924e897efd52)
+
+
 <img width="713" alt="wns" src="https://github.com/user-attachments/assets/74f8f222-58ea-4b27-bf25-b448f9cce736">
+
 <img width="857" alt="avg worst slack" src="https://github.com/user-attachments/assets/e03eb76b-ee87-4968-b8b9-c54ac6361a3d">
 
 <img width="857" alt="worstslack" src="https://github.com/user-attachments/assets/c5868ed1-13f2-448d-a0d7-581c424c3bc0">
