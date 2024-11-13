@@ -588,6 +588,10 @@ Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
 4. Power planning
 5. Pin Placement and logical cell placement blockage
 6. Floorplan in OpenLane and review layout in Magic
+   
+![workingdir](images/run_floorplan.png)
+![workingdir](images/fpcomplete.png)
+![workingdir](images/diearea.png)
 
 
 #### b. Library Binding and Placement
