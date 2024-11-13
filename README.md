@@ -668,6 +668,22 @@ Placement of standard cell
 ![workingdir](images/layers1.png)
 ![workingdir](images/drcerror.png)
 
+<ins>Editing spice inverter design</ins>
+
+Extracting spice netlist from layout
+
+![workingdir](images/spiceextract.png)
+
+Generated spice netlist
+
+![workingdir](images/inv_spice.png)
+
+Editing spice netlist
+
+![workingdir](images/edited_spice.png)
+
+
+
 
 
 #### b. Layout and cmos fabrication processor
