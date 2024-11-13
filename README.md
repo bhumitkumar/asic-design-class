@@ -580,7 +580,7 @@ Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
 ```
 ## Day 2 - Floorplan and Introduction to library cells
 
-# a. Chip Floor planning considerations
+#### a. Chip Floor planning considerations
 
 1. Utilization factor and aspect ratio
 2. Pre-placed cells
@@ -589,7 +589,8 @@ Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
 5. Pin Placement and logical cell placement blockage
 6. Floorplan in OpenLane and review layout in Magic
 
-# b. Library Binding and Placement
+
+#### b. Library Binding and Placement
 
 Need for libraries and characterisation
 
@@ -598,44 +599,44 @@ Need for libraries and characterisation
 3. Final Placement optimisation
 4. Congestion aware placement using Replace
 
-# c. Cell design and characterization follows
+#### c. Cell design and characterization follows
 
 1. Inputs for cell design follows
 2. Circuit design Steps
 3. Layout design steps
 4. Typical characterization flow
 
-# d. General timing and characterization parameters
+#### d. General timing and characterization parameters
 
 1. Timing threshold deifinitions
 2. Propogation delay and transition time
 
-Day 3 - Design library cell using Magic layout and ngspice characterisation
+## Day 3 - Design library cell using Magic layout and ngspice characterisation
 
-# a. ngspice simulation of cmos inverter
+#### a. ngspice simulation of cmos inverter
 
-# b. Layout and cmos fabrication processor
+#### b. Layout and cmos fabrication processor
 
-# c. Sky130 tech files
+#### c. Sky130 tech files
 
 ## Day 4 - Pre-layout timing analysis and Clock tree synthesis
 
-# a. Timing modelling using delay tables
+#### a. Timing modelling using delay tables
 
-# b. Timing analysis with ideal clocks using OpenSTA
+#### b. Timing analysis with ideal clocks using OpenSTA
 
-# c. Clock tree synthesis using TrintonCTS and signal integrity
+#### c. Clock tree synthesis using TrintonCTS and signal integrity
 
-# d. Timing analysis with real clocks using OpenSTA
+#### d. Timing analysis with real clocks using OpenSTA
 
 
 ## Day 5 - Final steps for RTL2GDS using trintonRoute and OpenSTA
 
-# a. Routing and Design rule check(DRC)
+#### a. Routing and Design rule check(DRC)
 
-# b. Power distribution network and Routing
+#### b. Power distribution network and Routing
 
-# c. TrintonRoute features
+#### c. TrintonRoute features
 
 
 </details>
