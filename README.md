@@ -683,6 +683,16 @@ Editing spice netlist
 ![workingdir](images/edited_spice.png)
 
 
+Running ngspice 
+
+![workingdir](images/ngspice_run.png)
+
+
+Transient simulation of inverter
+
+![workingdir](images/waveforms.png)
+
+
 
 
 
