@@ -557,20 +557,27 @@ Sign Off - Includes Physical verification through Design Rules Checking(DRC) and
 
 #### a. OpenLane working Directory
 ![workingdir](images/openlane_WD.png)
+![workingdir](images/designpreprunsynth.png)
 
-# b. Design preparation steps
+#### b. Design preparation steps
 
-# c. Review files generated after design preparation and Synthesised
+![workingdir](images/designprep.png)
 
-# d. Steps to characterise Synthesis results
+#### c. Review files generated after design preparation and Synthesised
+![workingdir](images/synth.png)
+#### d. Steps to characterise Synthesis results
 
+![workingdir](images/numberofcells.png)
+![workingdir](images/dffnum.png)
 Flop ratio calculations require, total number of cells synthesised and the number of flipflops among that,
 
 ```math
 Flop\ ratio = \frac{number\ of\ flipflops}{total\ number\ of\ cells} = \frac{1613}{14876} = 0.10842968539
 
 ```
-
+```math
+Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
+```
 ## Day 2 - Floorplan and Introduction to library cells
 
 # a. Chip Floor planning considerations
