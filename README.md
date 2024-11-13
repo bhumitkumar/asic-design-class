@@ -661,7 +661,13 @@ Placement of standard cell
 
 ## Day 3 - Design library cell using Magic layout and ngspice characterisation
 
-#### a. ngspice simulation of cmos inverter
+#### a. CMOS inverter - Layout in Magic and spice simulation in ngspice
+
+![workingdir](images/inverterrun.png)
+![workingdir](images/inverterlayout.png)
+![workingdir](images/drcerror.png)
+
+
 
 #### b. Layout and cmos fabrication processor
 
