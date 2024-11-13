@@ -630,9 +630,20 @@ Need for libraries and characterisation
 3. Final Placement optimisation
 4. Congestion aware placement using Replace
 
+Placement run
+
 ![workingdir](images/plmtrun.png)
+
+Output of placement run
+
 ![workingdir](images/plmt_result.png)
+
+Director after placement run
+
 ![workingdir](images/plmt_dir.png)
+
+Placement of standard cell
+
 ![workingdir](images/plmn_stancell.png)
 
 
