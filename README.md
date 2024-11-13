@@ -593,6 +593,31 @@ Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
 ![workingdir](images/fpcomplete.png)
 ![workingdir](images/diearea.png)
 
+<ins>Calculations of die area based on results generated from floorplan run</ins>
+
+Floorplan run
+
+![workingdir](images/viewfloorplan.png)
+
+
+tcl console for interaction
+
+![workingdir](images/tclconsole.png)
+
+
+![workingdir](images/floorplan.png)
+
+Tapcells
+
+![workingdir](images/tapcells.png)
+
+IO pads
+
+![workingdir](images/iopads.png)
+
+Standard Cells
+![workingdir](images/stancell1.png)
+![workingdir](images/standardcells.png)
 
 #### b. Library Binding and Placement
 
