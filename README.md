@@ -597,6 +597,8 @@ Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
 
 Floorplan run
 
+![workingdir](images/flrplan_dir.png)
+
 ![workingdir](images/viewfloorplan.png)
 
 
@@ -627,6 +629,12 @@ Need for libraries and characterisation
 2. Optimise placement using estimated wire-length and capacitance
 3. Final Placement optimisation
 4. Congestion aware placement using Replace
+
+![workingdir](images/plmtrun.png)
+![workingdir](images/plmt_result.png)
+![workingdir](images/plmt_dir.png)
+![workingdir](images/plmn_stancell.png)
+
 
 #### c. Cell design and characterization follows
 
