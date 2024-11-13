@@ -512,3 +512,124 @@ Table of various slack report
 
 
 </details>
+
+<details>
+<summary>Lab 11: Physical Design using OpenLANE and SkyWater130 PDK </summary>
+
+
+
+# Physical Design using OpenLANE flow and SkyWater130 PDK
+
+The main components of ASIC design includes following,
+
+#### 1. RTL designs
+
+Sources of RTL designs are librecores.org, opencores.org, github.commom
+2. EDA Tools
+
+Open source EDA tools are Qflow, OpenROAD, OpenLane
+3. Process Design Kit(PDK) data
+
+An example of opensource PDK is Skywater 130nm PDK
+
+Following is a summary of simplified RTL to GDSII flow,
+
+Synthesis - Design RTL is converted to circuits with componets form Standard cell library(SCL)
+
+Floor/Poweplanning -
+Chip floor planning - partition the chip die between different system building blocks and place IO pads
+
+Macro Floor planning -  Dimensions, pin locations, rows definition
+Powerplanning - Power network is created which includes, Power pads, Power straps, Power rings
+
+Placement - Place the cells on the floorplan rows
+
+Clock Tree Synthesis - Create a clock distribution network to deliver the clock to all sequential elements
+
+Routing - Connecting cells together using available metal layers
+
+Sign Off - Includes Physical verification through Design Rules Checking(DRC) and Layout vs Schematic(LVS) and Timing verification through Static Timing Analysis(STA).
+
+![openlane flow](images/openlane.jpeg)
+
+
+## Day 1 - Introduction to OpenLane
+
+#### a. OpenLane working Directory
+![workingdir](images/openlane_WD.png)
+
+# b. Design preparation steps
+
+# c. Review files generated after design preparation and Synthesised
+
+# d. Steps to characterise Synthesis results
+
+Flop ratio calculations require, total number of cells synthesised and the number of flipflops among that,
+
+```math
+Flop\ ratio = \frac{number\ of\ flipflops}{total\ number\ of\ cells} = \frac{1613}{14876} = 0.10842968539
+
+```
+
+## Day 2 - Floorplan and Introduction to library cells
+
+# a. Chip Floor planning considerations
+
+1. Utilization factor and aspect ratio
+2. Pre-placed cells
+3. De-coupling capacitors
+4. Power planning
+5. Pin Placement and logical cell placement blockage
+6. Floorplan in OpenLane and review layout in Magic
+
+# b. Library Binding and Placement
+
+Need for libraries and characterisation
+
+1. Netlist binding and initial place design
+2. Optimise placement using estimated wire-length and capacitance
+3. Final Placement optimisation
+4. Congestion aware placement using Replace
+
+# c. Cell design and characterization follows
+
+1. Inputs for cell design follows
+2. Circuit design Steps
+3. Layout design steps
+4. Typical characterization flow
+
+# d. General timing and characterization parameters
+
+1. Timing threshold deifinitions
+2. Propogation delay and transition time
+
+Day 3 - Design library cell using Magic layout and ngspice characterisation
+
+# a. ngspice simulation of cmos inverter
+
+# b. Layout and cmos fabrication processor
+
+# c. Sky130 tech files
+
+## Day 4 - Pre-layout timing analysis and Clock tree synthesis
+
+# a. Timing modelling using delay tables
+
+# b. Timing analysis with ideal clocks using OpenSTA
+
+# c. Clock tree synthesis using TrintonCTS and signal integrity
+
+# d. Timing analysis with real clocks using OpenSTA
+
+
+## Day 5 - Final steps for RTL2GDS using trintonRoute and OpenSTA
+
+# a. Routing and Design rule check(DRC)
+
+# b. Power distribution network and Routing
+
+# c. TrintonRoute features
+
+
+</details>
+
