@@ -599,7 +599,6 @@ Percentage\ of\ D-flipflops = 0.10842968539 * 100 = 10.842968539\ \%
 ![workingdir](images/fpcomplete.png)
 ![workingdir](images/diearea.png)
 
-<ins>Calculations of die area based on results generated from floorplan run</ins>
 
 Floorplan run
 
