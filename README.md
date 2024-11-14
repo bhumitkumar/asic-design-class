@@ -517,30 +517,30 @@ Table of various slack report
 <summary>Lab 11: Physical Design using OpenLANE and SkyWater130 PDK </summary>
 
 
-
 # Physical Design using OpenLANE flow and SkyWater130 PDK
 
 The main components of ASIC design includes following,
 
 #### 1. RTL designs
 
-Sources of RTL designs are librecores.org, opencores.org, github.commom
+Sources of RTL designs are librecores.org, opencores.org, github.com.
 
 #### 2. EDA Tools
 
-Open source EDA tools are Qflow, OpenROAD, OpenLane
+Open source EDA tools are Qflow, OpenROAD, OpenLane.
 
 #### 3. Process Design Kit(PDK) data
 
-An example of opensource PDK is Skywater 130nm PDK
+An example of opensource PDK is Skywater 130nm PDK.
 
-![asic](images/asic00.png)
+<img src = images/asic00.png width = 500 height = 500>
+
 
 ### Summary of simplified RTL to GDSII flow based on OpenLANE,
 
-Synthesis - Design RTL is converted to circuits with componets form Standard cell library(SCL)
+1. Synthesis - Design RTL is converted to circuits with componets form Standard cell library(SCL)
 
-Floor/Poweplanning -
+2. Floor/Poweplanning -
 Chip floor planning - partition the chip die between different system building blocks and place IO pads
 
 Macro Floor planning -  Dimensions, pin locations, rows definition
