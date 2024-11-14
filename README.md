@@ -767,27 +767,6 @@ sky130_bhu cell in cellmanager
 
 ![workingdir](images/17invcell.png)
 
-/home/vsduser/Documents/current14/1invertercell.png
-/home/vsduser/Documents/current14/2openinvmagic.png
-/home/vsduser/Documents/current14/3creatingnewcell.png
-/home/vsduser/Documents/current14/4dirwithnewcell.png
-/home/vsduser/Documents/current14/5setenvformerge.png
-/home/vsduser/Documents/current14/6merginglefs.png
-/home/vsduser/Documents/current14/7merginglefs.png
-/home/vsduser/Documents/current14/8synthaftermerge.png
-/home/vsduser/Documents/current14/9addedcell.png
-/home/vsduser/Documents/current14/10initfloorplan.png
-/home/vsduser/Documents/current14/11placeio.png
-/home/vsduser/Documents/current14/12tapdecap.png
-/home/vsduser/Documents/current14/13placementdone.png
-/home/vsduser/Documents/current14/14openmagic.png
-/home/vsduser/Documents/current14/15magicscreen.png
-/home/vsduser/Documents/current14/16invcell.png
-/home/vsduser/Documents/current14/17invcell.png
-
-
-
-
 
 #### c. Sky130 tech files
 
