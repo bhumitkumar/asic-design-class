@@ -770,6 +770,22 @@ sky130_bhu cell in cellmanager
 
 ## Day 4 - Pre-layout timing analysis and Clock tree synthesis
 
+Timing reports generated before clock tree synthesis
+Followin report shows the slack report generated
+
+![workingdir](images/13timing.png)
+![workingdir](images/12timing.png)
+![workingdir](images/14timing.png)
+![workingdir](images/15timing.png)
+![workingdir](images/16timing.png)
+
+/home/vsduser/Documents/current141/12timing.png
+/home/vsduser/Documents/current141/13timing.png
+/home/vsduser/Documents/current141/14timing.png
+/home/vsduser/Documents/current141/15timing.png
+/home/vsduser/Documents/current141/16timing.png
+
+
 #### Clock tree synthesis using TrintonCTS and signal integrity
 
 Performing Clock tree synthesis
@@ -818,8 +834,32 @@ Directory structure after PDN run
 
 ![workingdir](images/27pdnrundir.png)
 
+#### Routing using TrintonRoute
 
-#### c. TrintonRoute features
+Command to begin routing - run_route
+
+![workingdir](images/28runrouting.png)
+
+Routing takes multiple iterations to get zero violations
+
+![workingdir](images/29routing.png)
+
+Routing ends with zero violations
+
+![workingdir](images/30routingends.png)
+
+Directory structure after routing and Opening magic to view layout after routing
+
+![workingdir](images/31routingdirmagic.png)
+
+Generated layout after routing
+
+![workingdir](images/32layoutaftrouting.png)
+
+Routing seen between layers
+
+![workingdir](images/33routed.png)
+
 
 
 </details>
