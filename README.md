@@ -525,10 +525,14 @@ The main components of ASIC design includes following,
 #### 1. RTL designs
 
 Sources of RTL designs are librecores.org, opencores.org, github.commom
-2. EDA Tools
+
+#### 2. EDA Tools
 
 Open source EDA tools are Qflow, OpenROAD, OpenLane
-3. Process Design Kit(PDK) data
+
+#### 3. Process Design Kit(PDK) data
+
+![asic](images/asicc.png)
 
 An example of opensource PDK is Skywater 130nm PDK
 
