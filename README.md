@@ -702,7 +702,92 @@ Transient simulation of inverter
 
 
 
-#### b. Layout and cmos fabrication processor
+#### b. Merging CMOS inverter cell in picorv32a design
+
+![workingdir](images/1invertercell.png)
+
+open inverter cell in magic
+
+![workingdir](images/2openinvmagic.png)
+
+Creating new cell
+
+![workingdir](images/3creatingnewcell.png)
+
+Directory structure with new cell
+
+![workingdir](images/4dirwithnewcell.png)
+
+set environment variables for merging inverter cell with picoriscv32a
+
+![workingdir](images/5setenvformerge.png)
+
+![workingdir](images/6merginglefs.png)
+
+![workingdir](images/7merginglefs.png)
+
+Synthesis after merge
+
+![workingdir](images/8synthaftermerge.png)
+
+
+sky130_bhu in merged lef
+
+![workingdir](images/9addedcell.png)
+
+Initiate the floorplan
+
+![workingdir](images/10initfloorplan.png)
+
+placing IOs
+
+![workingdir](images/11placeio.png)
+
+Tapdecap
+
+![workingdir](images/12tapdecap.png)
+
+Completion of placement after merging of inverter
+
+![workingdir](images/13placementdone.png)
+
+Run Magic
+
+![workingdir](images/14openmagic.png)
+
+Output of magic after inserting inverter
+
+![workingdir](images/15magicscreen.png)
+
+sky130_bhu cell in layout
+
+![workingdir](images/16invcell.png)
+
+sky130_bhu cell in cellmanager
+
+![workingdir](images/17invcell.png)
+
+/home/vsduser/Documents/current14/1invertercell.png
+/home/vsduser/Documents/current14/2openinvmagic.png
+/home/vsduser/Documents/current14/3creatingnewcell.png
+/home/vsduser/Documents/current14/4dirwithnewcell.png
+/home/vsduser/Documents/current14/5setenvformerge.png
+/home/vsduser/Documents/current14/6merginglefs.png
+/home/vsduser/Documents/current14/7merginglefs.png
+/home/vsduser/Documents/current14/8synthaftermerge.png
+/home/vsduser/Documents/current14/9addedcell.png
+/home/vsduser/Documents/current14/10initfloorplan.png
+/home/vsduser/Documents/current14/11placeio.png
+/home/vsduser/Documents/current14/12tapdecap.png
+/home/vsduser/Documents/current14/13placementdone.png
+/home/vsduser/Documents/current14/14openmagic.png
+/home/vsduser/Documents/current14/15magicscreen.png
+/home/vsduser/Documents/current14/16invcell.png
+/home/vsduser/Documents/current14/17invcell.png
+
+
+
+
 
 #### c. Sky130 tech files
 
