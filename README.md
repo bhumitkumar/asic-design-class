@@ -768,15 +768,25 @@ sky130_bhu cell in cellmanager
 ![workingdir](images/17invcell.png)
 
 
-#### c. Sky130 tech files
-
 ## Day 4 - Pre-layout timing analysis and Clock tree synthesis
 
-#### a. Timing modelling using delay tables
+#### Clock tree synthesis using TrintonCTS and signal integrity
 
-#### b. Timing analysis with ideal clocks using OpenSTA
+Performing Clock tree synthesis
+![workingdir](images/17runcts.png)
 
-#### c. Clock tree synthesis using TrintonCTS and signal integrity
+Output of cts run
+
+![workingdir](images/18cts.png)
+
+Generated cts def
+
+![workingdir](images/19ctsdef.png)
+
+CTS in layout
+
+![workingdir](images/20picorv32actsdef.png)
+
 
 #### d. Timing analysis with real clocks using OpenSTA
 
