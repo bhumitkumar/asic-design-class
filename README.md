@@ -788,14 +788,36 @@ CTS in layout
 ![workingdir](images/20picorv32actsdef.png)
 
 
-#### d. Timing analysis with real clocks using OpenSTA
-
-
 ## Day 5 - Final steps for RTL2GDS using trintonRoute and OpenSTA
 
-#### a. Routing and Design rule check(DRC)
+Giving commands for generating power distribution network - gen_pdn
 
-#### b. Power distribution network and Routing
+![workingdir](images/21generating_pdn.png)
+
+PDN run
+
+![workingdir](images/22pdnrun.png)
+
+PDN run complete
+
+![workingdir](images/23pdncomplete.png)
+
+Using magic to see layout with PDN
+
+![workingdir](images/24openlayoutafterpdn.png)
+
+Top view of layout with PDN
+
+![workingdir](images/25lytwithpdn.png)
+
+Power rails
+
+![workingdir](images/26powerrails.png)
+
+Directory structure after PDN run
+
+![workingdir](images/27pdnrundir.png)
+
 
 #### c. TrintonRoute features
 
