@@ -860,7 +860,29 @@ Routing seen between layers
 
 ![workingdir](images/33routed.png)
 
+SPEF Extraction is performed using python script
 
+![workingdir](images/34spefextraction.png)
+
+Post Route Timing analysis
+
+Performing post route timing analysis using OpenSTA
+
+![workingdir](images/35openroadtimingpostspef.png)
+
+Reading related files to do timing analysis
+
+![workingdir](images/36postroutsta.png)
+
+Post Route timing reports
+
+![workingdir](images/37timingrpt1.png)
+
+![workingdir](images/37timingrpt2.png)
+
+![workingdir](images/37timingrpt3.png)
+
+![workingdir](images/37timingrpt4.png)
 
 </details>
 
