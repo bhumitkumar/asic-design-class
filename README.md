@@ -536,7 +536,7 @@ An example of opensource PDK is Skywater 130nm PDK
 
 ![asic](images/asic00.png)
 
-Following is a summary of simplified RTL to GDSII flow,
+### Summary of simplified RTL to GDSII flow based on OpenLANE,
 
 Synthesis - Design RTL is converted to circuits with componets form Standard cell library(SCL)
 
