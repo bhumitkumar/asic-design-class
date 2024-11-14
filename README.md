@@ -540,19 +540,21 @@ An example of opensource PDK is Skywater 130nm PDK.
 
 1. Synthesis - Design RTL is converted to circuits with componets form Standard cell library(SCL)
 
-2. Floor/Poweplanning -
-Chip floor planning - partition the chip die between different system building blocks and place IO pads
+2. Floor/Power planning -
 
-Macro Floor planning -  Dimensions, pin locations, rows definition
-Powerplanning - Power network is created which includes, Power pads, Power straps, Power rings
+   a. Chip floor planning - partition the chip die between different system building blocks and place IO pads
 
-Placement - Place the cells on the floorplan rows
+   b. Macro Floor planning -  Dimensions, pin locations, rows definition
 
-Clock Tree Synthesis - Create a clock distribution network to deliver the clock to all sequential elements
+   c. Powerplanning - Power network is created which includes, Power pads, Power straps, Power rings
 
-Routing - Connecting cells together using available metal layers
+3. Placement - Place the cells on the floorplan rows
 
-Sign Off - Includes Physical verification through Design Rules Checking(DRC) and Layout vs Schematic(LVS) and Timing verification through Static Timing Analysis(STA).
+4. Clock Tree Synthesis - Create a clock distribution network to deliver the clock to all sequential elements
+
+5. Routing - Connecting cells together using available metal layers
+
+6. Sign Off - Includes Physical verification through Design Rules Checking(DRC) and Layout vs Schematic(LVS) and Timing verification through Static Timing Analysis(STA).
 
 ![openlane flow](images/openlane.jpeg)
 
