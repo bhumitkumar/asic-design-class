@@ -532,9 +532,9 @@ Open source EDA tools are Qflow, OpenROAD, OpenLane
 
 #### 3. Process Design Kit(PDK) data
 
-![asic](images/asicc.png)
-
 An example of opensource PDK is Skywater 130nm PDK
+
+![asic](images/asic00.png)
 
 Following is a summary of simplified RTL to GDSII flow,
 
