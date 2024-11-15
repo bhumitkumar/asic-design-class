@@ -562,7 +562,9 @@ An example of opensource PDK is Skywater 130nm PDK.
 ## Day 1 - Introduction to OpenLane
 
 #### a. OpenLane working Directory
-![workingdir](images/openlane_WD.png)
+
+![workingdir](images/41runs.png)
+![workingdir](images/42runs.png)
 ![workingdir](images/designpreprunsynth.png)
 
 #### b. Design preparation steps
