@@ -892,3 +892,81 @@ Post Route timing reports
 
 </details>
 
+<details>
+  
+<summary>Lab 12: OpenROAD based RTL-GDSII flow </summary>
+
+### For installation of OpenROAD follow the steps given below
+
+For installation locally, enter following command,
+```
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+cd OpenROAD-flow-scripts
+sudo ./setup.sh
+```
+Next, to build, enter following, 
+```
+./build_openroad.sh --local
+```
+After the completion of above steps, to verify enter following, 
+
+```
+source ./env.sh
+yosys -help
+openroad -help
+cd flow
+
+make
+```
+To view GUI for an example design, enter following,
+```
+make gui_final
+```
+![Screenshot from 2024-11-25 19-13-31](https://github.com/user-attachments/assets/83f3d9c4-2d47-4747-9143-8c3d09783a01)
+
+To generate GDSII for VSDBabySoC, the openroad flow scripts are used which involves the following steps,
+1. Synthesis
+2. Floorplan
+3. Placement
+4. Clock tree synthesis
+5. Routing
+
+Initial preparation for running the flow involves placing verilog files in Sky130 pdk folder and all the related files such as lib, lef and gds files as showing in follwing screenshot of folder,
+
+![image](https://github.com/user-attachments/assets/9288bb61-97a1-4a3f-8691-2856be9effc1)
+
+
+### 1. Synthesis
+![image](https://github.com/user-attachments/assets/bc25e63b-acae-45c4-89fc-026f998d97ba)
+
+### 2. Floorplan
+![image](https://github.com/user-attachments/assets/8b7c442e-9d90-4c51-ba42-eb3400021f19)
+
+![image](https://github.com/user-attachments/assets/89aba994-4ed7-4f2b-95ab-95ab3d26b75f)
+
+
+### 3. Placement
+![image](https://github.com/user-attachments/assets/e2e73dfd-076b-4505-ac55-68b5736f0f2e)
+![image](https://github.com/user-attachments/assets/a074f732-565c-4eb2-89fe-1172f7f34b77)
+
+
+### 4. CTS - Clock tree synthesis
+![image](https://github.com/user-attachments/assets/9f5b9630-3d04-45d6-8760-7cebd3e3dc67)
+![image](https://github.com/user-attachments/assets/e0ed6aae-66be-4588-ba79-9d308f5b9677)
+
+### 5. Route
+![image](https://github.com/user-attachments/assets/0357fe26-526c-45a3-8f50-2f70991aeb21)
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
