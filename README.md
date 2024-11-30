@@ -938,11 +938,20 @@ make gui_final
 ![Screenshot from 2024-11-25 19-13-31](https://github.com/user-attachments/assets/83f3d9c4-2d47-4747-9143-8c3d09783a01)
 
 To generate GDSII for VSDBabySoC, the openroad flow scripts are used which involves the following steps,
-1. Synthesis
-2. Floorplan
-3. Placement
-4. Clock tree synthesis
-5. Routing
+1. Synthesis - Design RTL is converted to circuits with componets form Standard cell library(SCL)
+2. Floorplan -
+   
+   a. Chip floor planning - partition the chip die between different system building blocks and place IO pads
+
+   b. Macro Floor planning -  Dimensions, pin locations, rows definition
+
+   c. Powerplanning - Power network is created which includes, Power pads, Power straps, Power rings
+
+4. Placement - Place the cells on the floorplan rows
+   
+6. Clock tree synthesis - Create a clock distribution network to deliver the clock to all sequential elements
+
+8. Routing - Connecting cells together using available metal layers
 
 Initial preparation for running the flow involves placing verilog files in Sky130 pdk folder and all the related files such as lib, lef and gds files as showing in follwing screenshot of folder,
 
@@ -997,6 +1006,16 @@ In the final step, gds is generated, which is merged using Klayout
 
 ### 5. Route
 ![image](https://github.com/user-attachments/assets/0357fe26-526c-45a3-8f50-2f70991aeb21)
+
+Due to congestion routing could not be completed, congestion can be seen in following report
+
+![image](https://github.com/user-attachments/assets/9224915e-6b95-4e4b-8e9f-f41904af3a52)
+
+
+
+Partially generated heatmaps are as follows,
+![image](https://github.com/user-attachments/assets/6bcfbef4-1006-46ef-85b3-cd44337eddcc)
+![image](https://github.com/user-attachments/assets/c5abed1a-1392-464f-a6b8-448347531bca)
 
 
 
