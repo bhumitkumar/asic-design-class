@@ -1011,6 +1011,8 @@ Due to congestion routing could not be completed, congestion can be seen in foll
 
 ![image](https://github.com/user-attachments/assets/9224915e-6b95-4e4b-8e9f-f41904af3a52)
 
+Following image shows the result folder, files generated after each stage as the flow progresses,
+![image](https://github.com/user-attachments/assets/f4cee772-c7b2-4b2f-a5ae-2bc77385b352)
 
 
 Partially generated heatmaps are as follows,
