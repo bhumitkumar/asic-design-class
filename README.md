@@ -896,7 +896,20 @@ Post Route timing reports
   
 <summary>Lab 12: OpenROAD based RTL-GDSII flow </summary>
 
+### OpenROAD
+
+The goal of OpenROAD is "24-hour, No-Human-In-The-Loop layout design for SOC with no Power-Performance-Area (PPA) loss Tapeout-capable tools in source code form, with permissive licensing → seed future “Linux of EDA" ". Source: https://theopenroadproject.org/
+
+Following diagram shows the complete flow and steps involved in RTL to GDSII flow.
+
+![image](https://github.com/user-attachments/assets/a2f3496d-5390-4ff7-89f4-c389facd1a86)
+
+
+
+
 ### For installation of OpenROAD follow the steps given below
+
+There are mainly three ways to do OpenROAD installation, either on local machine, or on docker or using prebuilt binaries.
 
 For installation locally, enter following command,
 ```
@@ -934,6 +947,34 @@ To generate GDSII for VSDBabySoC, the openroad flow scripts are used which invol
 Initial preparation for running the flow involves placing verilog files in Sky130 pdk folder and all the related files such as lib, lef and gds files as showing in follwing screenshot of folder,
 
 ![image](https://github.com/user-attachments/assets/9288bb61-97a1-4a3f-8691-2856be9effc1)
+
+
+To run the flow in terminal makefile is used which contains scripts for various stages, following shows the screenshots of that makefile highlighting the different steps in the flow, 
+
+The first part shows the list of designs present in the design folder, to run the flow for particular design, uncomment the path of that design, 
+![image](https://github.com/user-attachments/assets/d42d4b58-8bdc-42f3-84c3-a63c8e1a8317)
+
+Next part shows the script for setting up the environment, 
+![image](https://github.com/user-attachments/assets/3a407c59-f846-4010-8d0a-6feb29c2f40f)
+
+Following part shows the script to run the design for synthesis using yosys, it will generate the sdc file in corresponding folders
+![image](https://github.com/user-attachments/assets/4403a5c3-9a05-4ebf-ba7f-db2119b457e0)
+
+Following part of script is for floorplan, which generates odb files and can be seen in gui
+![image](https://github.com/user-attachments/assets/27287053-390d-412b-937a-fe6cbf4a785f)
+
+Placement is done after floor plan, to run that following script is used and results are placed in corresponding results directory.
+![image](https://github.com/user-attachments/assets/f4a7da68-327e-4f0f-9511-d55f3220bf1f)
+
+Clock tree synthesis(CTS) is performed after placement and before routing and follwoing scripts perform,
+![image](https://github.com/user-attachments/assets/04319a03-ca78-42ba-9a09-7e3604133294)
+
+Routing is final step in the flow and output can be see in odb files,
+![image](https://github.com/user-attachments/assets/cb2ab030-f781-473c-a7a0-eea1de17f45c)
+
+In the final step, gds is generated, which is merged using Klayout
+![image](https://github.com/user-attachments/assets/5c8752c3-38b9-4a98-ad73-1bebb98becd7)
+
 
 
 ### 1. Synthesis
